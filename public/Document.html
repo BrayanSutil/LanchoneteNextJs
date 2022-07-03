@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/step03.html -->
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="
+      width=device-width,
+      initial-scale=1.0,
+      maximum-scale=1 
+      "
+    />
+
+    <title>LanchoneteCCOMC</title>
+    <script>
+      'use strict'
+
+      var rootElement = document.getElementById('root')
+
+      var Welcome = function Welcome(props) {
+        return /*#__PURE__*/ React.createElement('h1', null, 'Ol\xE1')
+      }
+
+      ReactDOM.render(
+        /*#__PURE__*/ React.createElement(Welcome, null),
+        rootElement
+      )
+      //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIklubGluZSBCYWJlbCBzY3JpcHQiXSwibmFtZXMiOlsicm9vdEVsZW1lbnQiLCJkb2N1bWVudCIsImdldEVsZW1lbnRCeUlkIiwiV2VsY29tZSIsInByb3BzIiwiUmVhY3RET00iLCJyZW5kZXIiXSwibWFwcGluZ3MiOiI7O0FBQ00sSUFBSUEsV0FBVyxHQUFHQyxRQUFRLENBQUNDLGNBQVQsQ0FBd0IsTUFBeEIsQ0FBbEI7O0FBRUEsSUFBTUMsT0FBTyxHQUFHLFNBQVZBLE9BQVUsQ0FBQ0MsS0FBRDtBQUFBLHNCQUFXLHlDQUFYO0FBQUEsQ0FBaEI7O0FBRUFDLFFBQVEsQ0FBQ0MsTUFBVCxlQUFnQixvQkFBQyxPQUFELE9BQWhCLEVBQTZCTixXQUE3QiIsInNvdXJjZXNDb250ZW50IjpbIlxuICAgICAgdmFyIHJvb3RFbGVtZW50ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3Jvb3QnKVxuXG4gICAgICBjb25zdCBXZWxjb21lID0gKHByb3BzKSA9PiA8aDE+T2zDoTwvaDE+XG5cbiAgICAgIFJlYWN0RE9NLnJlbmRlcig8V2VsY29tZSAvPiwgcm9vdEVsZW1lbnQpXG4gICAgICBcbiAgICAiXX0=
+    </script>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-T9TRJZ7"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="root"></div>
+    <script
+      crossoriginsrc="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossoriginsrc="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="./Document_files/babel.min.js.download"></script>
+    <script type="text/babel">
+      var rootElement = document.getElementById('root')
+
+      const Welcome = props => <h1>Olá</h1>
+
+      ReactDOM.render(<Welcome />, rootElement)
+    </script>
+    <!-- Code injected by live-server -->
+    <script type="text/javascript">
+      // <![CDATA[  <-- For SVG support
+      if ('WebSocket' in window) {
+        ;(function () {
+          function refreshCSS() {
+            var sheets = [].slice.call(document.getElementsByTagName('link'))
+            var head = document.getElementsByTagName('head')[0]
+            for (var i = 0; i < sheets.length; ++i) {
+              var elem = sheets[i]
+              var parent = elem.parentElement || head
+              parent.removeChild(elem)
+              var rel = elem.rel
+              if (
+                (elem.href && typeof rel != 'string') ||
+                rel.length == 0 ||
+                rel.toLowerCase() == 'stylesheet'
+              ) {
+                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '')
+                elem.href =
+                  url +
+                  (url.indexOf('?') >= 0 ? '&' : '?') +
+                  '_cacheOverride=' +
+                  new Date().valueOf()
+              }
+              parent.appendChild(elem)
+            }
+          }
+          var protocol =
+            window.location.protocol === 'http:' ? 'ws://' : 'wss://'
+          var address =
+            protocol + window.location.host + window.location.pathname + '/ws'
+          var socket = new WebSocket(address)
+          socket.onmessage = function (msg) {
+            if (msg.data == 'reload') window.location.reload()
+            else if (msg.data == 'refreshcss') refreshCSS()
+          }
+          if (
+            sessionStorage &&
+            !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')
+          ) {
+            console.log('Live reload enabled.')
+            sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true)
+          }
+        })()
+      } else {
+        console.error(
+          'Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.'
+        )
+      }
+      // ]]>
+    </script>
+  </body>
+</html>

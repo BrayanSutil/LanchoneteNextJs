@@ -1,0 +1,24 @@
+.Ppasteis {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#Ppasteish1 {
+  font-size: 24px;
+  width: 280px;
+}
+
+.PpasteisDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Ppasteisp {
+  position: relative;
+  top: 2.5px;
+  color: #fff;
+  font: 700 1.875rem 'Poppins', sans-serif;
+}

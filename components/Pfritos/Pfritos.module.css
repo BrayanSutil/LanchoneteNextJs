@@ -1,0 +1,33 @@
+.Pfritos {
+  background: #fff;
+  padding: 1rem;
+  box-shadow: 0px 0px 12px rebeccapurple;
+  border-bottom: 32px solid rebeccapurple;
+  border-radius: 0.75rem 0.75rem 0.5rem 0.5rem;
+  height: 110px;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.configComp {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.pDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p {
+  position: relative;
+  top: 2.5px;
+  color: #fff;
+  font: 700 1.875rem 'Poppins', sans-serif;
+}
